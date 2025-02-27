@@ -8,7 +8,7 @@ import store from './redux/store';
 import axios from 'axios';
 
 
-axios.defaults.baseURL="http://localhost:5000/api"
+axios.defaults.baseURL="https://e-commerce-back-0v9b.onrender.com/api"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
